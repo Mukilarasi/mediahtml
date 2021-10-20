@@ -1,0 +1,28 @@
+.one,
+.two{
+  height: 10rem;
+  width: 100px;
+  background-color: teal;
+  font-weight: bold;
+  font-size: 10rem;
+  text-align: center;
+}
+.two{
+  background-color: palevioletred;
+}
+@media(min-width: 600px){
+  .layout{
+    display: flex;
+  }
+  .two{
+    background-color: orange;
+  }
+}
+@media(min-width: 800px){
+  .layout{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+}
+  
